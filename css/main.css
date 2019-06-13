@@ -1,0 +1,84 @@
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/grid/columns.sass";
+
+body{
+    font-family: "Poppins";
+}
+
+h1,h2,h3,p, a {
+    font-family: "Poppins";
+}
+
+.header-image {
+    background-image: url(../images/bann.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container .title{
+    font-family:"Poppins";
+    color:#035013;   
+    font-size:62px;
+    font-weight: 300;
+}
+.container .subtitle{
+    font-family:"Poppins";
+    font-size:28px;
+}
+
+.columns{
+    width: 90%;
+}
+
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered {
+    margin: auto;
+}
+
+.gray-color {
+    background: #fafafa;
+}
+
+.section-image {
+    background-image: url(../images/bann.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.left{
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+ 
+  .white {
+      color: white;
+  }
+
+  nav {
+    background-color: #EEE;
+    box-sizing: border-box;
+    padding: 12px 18px;
+    transition: background-color 0.4s ease-out;
+  }
+
+  
