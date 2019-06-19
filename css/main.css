@@ -10,7 +10,7 @@ h1,h2,h3,h5,p, a {
 }
 
 .header-image {
-    background-image: url(../images/bann.jpg);
+    background-image: url(../images/african-farmers_opt.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -46,7 +46,7 @@ h1,h2,h3,h5,p, a {
 }
 
 .section-image {
-    background-image: url(../images/bann.jpg);
+    background-image: url(../images/potato-farming-in-nigeria.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -248,5 +248,9 @@ ul {
 
 .green{
     color: green;
+}
+
+.button.is-link {
+    background-color: #035013;
 }
 
