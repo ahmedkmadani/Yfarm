@@ -3,29 +3,38 @@
 
 body{
     font-family: "Poppins";
+    padding:0;
+    margin:0;
 }
 
 h1,h2,h3,h5,p, a {
-    font-family: "Poppins";
+    font-family: "Poppins" sans-serif;
 }
 
 .header-image {
-    background-image: url(../images/african-farmers_opt.jpg);
+    background-image: url(../images/banner.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
 }
+
 
 .container .title{
     font-family:"Poppins";
     color:#035013;   
-    font-size:62px;
+    font-size:6em;
     font-weight: 300;
+    /* margin-top:-180px; */
 }
 .container .subtitle{
     font-family:"Poppins";
-    font-size:28px;
+    font-size:3em;
+    }
+
+.content-title{
+    float:left;
+    /* margin-right:50vw; */
 }
 
 .columns{
@@ -103,7 +112,12 @@ ul {
 .img:hover {
     -webkit-animation: none;-moz-animation: none;-ms-animation: none; animation: none;
   }
- 
+
+.navbar-item img{
+    max-height: 8rem !important;
+    position: relative;
+}
+
 .nav {
     background-color: #0c0f0f;
 }
@@ -115,6 +129,12 @@ ul {
 .nav a {
     color: whitesmoke;
 }
+.yfarmNav{
+    text-decoration: none;
+    margin: 1em 0 0 50vw;
+    font-size: 1.5em;
+}
+
 
 @-webkit-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
 @-moz-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
