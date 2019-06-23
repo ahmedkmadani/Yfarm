@@ -1,74 +1,31 @@
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/grid/columns.sass";
 
-body{
-    font-family: "Poppins";
-    padding:0;
-    margin:0;
-}
-
-h1,h2,h3,h5,p, a {
-    font-family: "Poppins" sans-serif;
-}
 
 .header-image {
     background-image: url(../images/banner.png);
     background-position: center center;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
 }
-
-.body-hero {
-    padding-bottom: 18rem;
-    /* padding-top: 18rem; */
+.navbar-item img{
+    max-height: 8rem !important;
+    position: relative;
 }
 
 .container .title{
     font-family:"Poppins";
     color:#035013;   
-    font-size:6em;
+    font-size:4.5em;
     font-weight: 300;
     /* margin-top:-180px; */
 }
 .container .subtitle{
     font-family:"Poppins";
-    font-size:3em;
+    font-size:1.3em;
     }
 
-.content-title{
-    float:left;
-    /* margin-right:50vw; */
-}
-
-.columns{
-    width: 90%;
-}
-
-.has-image-centered {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.centered {
-    margin: auto;
-}
-
-.gray-color {
-    background: #fafafa;
-}
-
-.section-image {
-    background-image: url(../images/potato-farming-in-nigeria.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.left{
-    text-align: left;
-}
 
 ul {
     list-style: none;
@@ -82,12 +39,6 @@ ul {
     width: 1em;
     margin-left: -1em;
   }
- 
-  .white {
-      color: white;
-  }
-
-
 .footer_ {
     background-color: #0c0f0f;
     color: whitesmoke;
@@ -96,185 +47,3 @@ ul {
 .footer_ a {
     color: #dd7325;
 }
-
-.nav-item a, a.nav-item {
-    color: #dd7325;
-}
-
-.nav-item a:hover, a.nav-item:hover {
-    color: whitesmoke;
-}
-
-.img {
-    box-shadow: 0 0 0 0 #035013;
-    -webkit-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
-    -moz-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
-    -ms-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
-    animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
-  }
-
-.img:hover {
-    -webkit-animation: none;-moz-animation: none;-ms-animation: none; animation: none;
-  }
-
-.navbar-item img{
-    max-height: 8rem !important;
-    position: relative;
-}
-
-.nav {
-    background-color: #0c0f0f;
-}
-
-.nav {
-    background-color: #0c0f0f;
-}
-
-.nav a {
-    color: whitesmoke;
-}
-.yfarmNav{
-    text-decoration: none;
-    margin: 1em 0 0 50vw;
-    font-size: 1.5em;
-}
-
-
-@-webkit-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
-@-moz-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
-@-ms-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
-@keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
-
-.row {
-    background-color: #ececec;
-    background-color: rgba(233,230,230,0.79);
- 
-}
-
-.slick-slide {
-    margin: 0px 60px;
-}
-
-.slick-slide img {
-    width: 100%;
-}
-
-.slick-slider
-{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-            user-select: none;
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.slick-list
-{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
-
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
-
-.slick-slide
-{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
-    height: auto;
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
-}
-
-.red{
-    color: red;
-}
-
-.green{
-    color: green;
-}
-
-.button {
-    background-color: #035013;
-}
-
