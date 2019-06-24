@@ -1,6 +1,9 @@
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/grid/columns.sass";
 
+h1,h2,h3,h5,p, a {
+    font-family: 'Open Sans', sans-serif;
+}
 
 .header-image {
     background-image: url(../images/banner.png);
@@ -15,14 +18,13 @@
 }
 
 .container .title{
-    font-family:"Poppins";
+    font-family:'Open Sans', sans-serif;
     color:#035013;   
     font-size:4.5em;
     font-weight: 300;
-    /* margin-top:-180px; */
 }
 .container .subtitle{
-    font-family:"Poppins";
+    font-family:'Open Sans', sans-serif;
     font-size:1.3em;
     }
 
@@ -31,7 +33,9 @@
     padding-bottom: 2vw;
     
 }
-
+.hero-body .theHeader{
+    padding: top -200px!important;
+}
 
 .priceFirst {
     margin-top:10vw;
@@ -41,7 +45,16 @@
 .priceList{
     margin-left: 50px;
 }
+.Historical{
+    background-color: #e8f9f5;
+}
 
+.firstColumn{
+    margin-left:250px;
+}
+.content-holder2{
+    margin-left:110px;
+}
 
 ul {
     list-style: none;
