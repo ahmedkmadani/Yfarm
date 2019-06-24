@@ -26,6 +26,22 @@
     font-size:1.3em;
     }
 
+.priceSearch{
+    margin-top:6vw;
+    padding-bottom: 2vw;
+    
+}
+
+
+.priceFirst {
+    margin-top:10vw;
+    padding-bottom:2vw;
+}
+
+.priceList{
+    margin-left: 50px;
+}
+
 
 ul {
     list-style: none;
